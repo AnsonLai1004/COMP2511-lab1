@@ -105,7 +105,7 @@ public class Satellite {
     }
 
     public static void main(String[] args) {
-        Satellite satA = new Satellite("Satellite A", 1000, 122, 55);
+        Satellite satA = new Satellite("Satellite A", 10000, 122, 55);
         Satellite satB = new Satellite("Satellite B", 5438, 0, 234000);
         Satellite satC = new Satellite("Satellite C", 9029, 284, 0);
         
