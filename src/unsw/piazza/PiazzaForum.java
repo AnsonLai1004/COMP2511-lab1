@@ -75,4 +75,16 @@ public class PiazzaForum {
         return result;
     }
 
+   /* public static void main(String[] args) {
+        PiazzaForum forum = new PiazzaForum("COMP2511");
+        System.out.println(forum.getName());
+        Thread funThread = forum.publish("The Real Question - Pineapple on Piazza", "Who likes pineapple on piazza?");
+        
+        funThread.setTags(new String[] { "pizza", "coding", "social", "hobbies" });
+        funThread.publishPost("Yuck!");
+        funThread.publishPost("Yes, pineapple on pizza is the absolute best");
+        funThread.publishPost("I think you misspelled pizza btw");
+        funThread.publishPost("I'll just fix that lol");
+        System.out.println(funThread.getPosts().size());
+    }*/
 }

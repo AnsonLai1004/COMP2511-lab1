@@ -19,7 +19,8 @@ public class Thread {
      */
     public Thread(String title, String firstPost) {
         this.title = title;
-        this.posts.add(firstPost);
+        this.posts = new ArrayList<String>();
+        posts.add(firstPost);
         this.tags = new ArrayList<String>();
     }
 
