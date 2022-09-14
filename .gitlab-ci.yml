@@ -24,11 +24,11 @@ satellite:
   script:
     - bash tests/satellite.sh
 
-# piazza:
-#   stage: checks
-#   script:
-#     - bash tests/piazza.sh
-#
+piazza:
+  stage: checks
+  script:
+    - bash tests/piazza.sh
+
 # scrabble:
 #   stage: checks
 #   script:
