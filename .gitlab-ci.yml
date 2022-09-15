@@ -29,7 +29,7 @@ piazza:
   script:
     - bash tests/piazza.sh
 
-# scrabble:
-#   stage: checks
-#   script:
-#     - bash tests/scrabble.sh
+scrabble:
+  stage: checks
+  script:
+    - bash tests/scrabble.sh
